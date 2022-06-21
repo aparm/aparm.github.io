@@ -1,0 +1,64 @@
+* {
+    font-family: sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #2f303f;
+}
+
+main {
+    height: 400px;
+    max-height: 100%;
+    width: 600px;
+    max-width: 95%;
+
+    padding-top: 30px;
+
+    border-radius: 15px;
+
+    background-color: #dce0ff;
+
+    text-align: center;
+    color: #2f303f;
+}
+
+.social-buttons {
+    margin: 30px;
+}
+
+.social-button {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+
+    border-radius: 2px;
+    opacity: 0.8;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.social-button:hover {
+    opacity: 1;
+}
+
+.github-button {
+    background-image: url("/res/img/github.png");
+}
+
+.linkedin-button {
+    background-image: url("/res/img/linkedin.png");
+}
