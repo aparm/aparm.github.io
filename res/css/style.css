@@ -10,32 +10,70 @@ html, body {
     margin: 0;
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
 
-    background-color: #2f303f;
+    background-color: #2f3136;
 }
 
 main {
-    height: 400px;
-    max-height: 100%;
-    width: 600px;
-    max-width: 95%;
+    min-height: 300px;
+
+    width: 70%;
+    min-width: 300px;
+    max-width: 650px;
 
     padding-top: 30px;
 
     border-radius: 15px;
 
-    background-color: #dce0ff;
+    background-color: #eaeaea;
 
     text-align: center;
-    color: #2f303f;
+    color: #2f3136;
+}
+
+.about-me {
+    width: 90%;
+    max-width: 500px;
+
+    margin: auto;
+
+    text-align: left;
+}
+
+.short-description {
+    font-size: 17px;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding-top: 15px;
+}
+
+td.dates {
+    width: 180px;
+
+    text-align: center;
+}
+
+.email {
+    text-align: center;
+    font-size: 18px;
 }
 
 .social-buttons {
-    margin: 30px;
+    margin: 0 0 30px 0;
 }
 
 .social-button {
@@ -46,19 +84,11 @@ main {
     border-radius: 2px;
     opacity: 0.8;
 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    margin: 0 10px;
 }
 
 .social-button:hover {
     opacity: 1;
 }
 
-.github-button {
-    background-image: url("/res/img/github.png");
-}
 
-.linkedin-button {
-    background-image: url("/res/img/linkedin.png");
-}
